@@ -1,0 +1,5 @@
+Time Complexity:
+Adding a task: O(n) - Inserting a task at the end of the list requires traversing the entire list to find the last node.
+Searching for a task: O(n) - Searching for a specific task involves traversing the list until the task is found or the end is reached.
+Traversing tasks: O(n) - Traversing the list to print or perform operations on each task requires visiting each node.
+Deleting a task: O(n) - Deleting a specific task requires finding the node (or its previous node), which involves traversing the list.

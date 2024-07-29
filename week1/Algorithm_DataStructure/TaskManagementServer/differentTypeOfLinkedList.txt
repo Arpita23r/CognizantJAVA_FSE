@@ -1,0 +1,7 @@
+
+
+Singly Linked List:
+A singly linked list is a type of data structure that consists of nodes. Each node contains two elements: data and a reference (or link) to the next node in the sequence. The list starts with a head node, which is the first node in the list, and the last node points to null, indicating the end of the list. Operations like insertion and deletion are efficient in singly linked lists because they do not require shifting elements as in arrays.
+
+Doubly Linked List:
+A doubly linked list is similar to a singly linked list but with an additional link in each node that points to the previous node. This allows traversal in both forward and backward directions. Each node contains three elements: data, a reference to the next node, and a reference to the previous node. This bidirectional feature makes certain operations, like deletion of a node, more efficient because there's no need to traverse the list to find the previous node.
