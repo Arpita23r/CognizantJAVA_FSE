@@ -1,0 +1,8 @@
+Array Representation in Memory
+Contiguous Memory Allocation: Arrays are stored in contiguous memory locations, which means that each element is located next to the previous one. This allows for efficient access to elements using their index.
+Indexing: Arrays allow constant-time access to elements using indices, making it very efficient to retrieve elements.
+Fixed Size: The size of an array is fixed at the time of creation, meaning the memory allocated for the array cannot be increased or decreased dynamically.
+Advantages of Arrays
+Fast Access: Accessing any element in an array by its index takes O(1) time.
+Memory Efficiency: Arrays have a low memory overhead compared to other data structures like linked lists.
+Cache Friendliness: Due to contiguous memory allocation, arrays have better cache performance.
