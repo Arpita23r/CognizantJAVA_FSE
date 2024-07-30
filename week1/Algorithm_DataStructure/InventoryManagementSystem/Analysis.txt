@@ -1,0 +1,22 @@
+o	Analyze the time complexity of each operation (add, update, delete) in your chosen data structure.
+
+Time Complexity
+Add Product:
+
+Average Case: O(1) - Adding a product to the HashMap.
+Worst Case: O(n) - In case of hash collisions, performance degrades, but this is rare with a good hash function.
+Update Product:
+
+Average Case: O(1) - Updating a product in the HashMap.
+Worst Case: O(n) - Same as above for hash collisions.
+Delete Product:
+
+Average Case: O(1) - Deleting a product from the 'HashMap'.
+Worst Case: O(n) - Same as above for hash collisions.
+
+o	Discuss how you can optimize these operations.
+
+Hash Function: Ensure a good hash function to minimize collisions.
+Load Factor: Monitor and maintain a low load factor in the 'HashMap' by resizing it appropriately.
+Batch Operations: For large updates, batch operations can be used to reduce the overhead of frequent individual operations.
+Indexing: Implement indexing for attributes like 'productName' if searches by name are frequent.
