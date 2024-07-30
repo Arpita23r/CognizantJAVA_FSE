@@ -1,3 +1,5 @@
+o	Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+
 Bubble Sort:
 
 Description: 
@@ -6,6 +8,7 @@ Time Complexity:
 Worst Case: O(n^2)
 Average Case: O(n^2)
 Best Case: O(n) (when the list is already sorted)
+
 Insertion Sort:
 
 Description: 
@@ -14,6 +17,7 @@ Time Complexity:
 Worst Case: O(n^2)
 Average Case: O(n^2)
 Best Case: O(n) (when the list is already sorted)
+
 Quick Sort:
 
 Description: 
@@ -22,6 +26,7 @@ Time Complexity:
 Worst Case: O(n^2) (rare and depends on pivot selection)
 Average Case: O(n log n)
 Best Case: O(n log n)
+
 Merge Sort:
 
 Description:
@@ -30,6 +35,7 @@ Time Complexity:
 All Cases: O(n log n)
 Step 4: Analysis
 Time Complexity Comparison
+
 Bubble Sort:
 
 Worst Case: O(n^2)
@@ -40,7 +46,3 @@ Quick Sort:
 Worst Case: O(n^2) (depends on pivot selection)
 Average Case: O(n log n)
 Best Case: O(n log n)
-Why Quick Sort is Generally Preferred Over Bubble Sort
-Efficiency: Quick Sort generally has better average-case performance (O(n log n)) compared to Bubble Sort's O(n^2) average-case performance.
-Scalability: Quick Sort scales better with larger datasets due to its more efficient time complexity.
-Real-World Performance: Quick Sort performs well in practice because it is cache-friendly and has low overhead, making it faster than other O(n log n) algorithms like Merge Sort for many types of data.
