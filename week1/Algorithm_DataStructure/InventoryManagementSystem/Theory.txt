@@ -1,7 +1,9 @@
-Importance of Data Structures and Algorithms in Handling Large Inventories
+o	Explain why data structures and algorithms are essential in handling large inventories.
+
 Efficient data structures and algorithms are essential in managing large inventories because they directly affect the system's performance. Proper data structures ensure that operations such as searching, inserting, updating, and deleting products are performed quickly and efficiently. This efficiency is critical in a warehouse environment where timely access to inventory data can impact operations, order fulfillment, and overall productivity.
 
-Suitable Data Structures for Inventory Management
+o	Discuss the types of data structures suitable for this problem
+
 ArrayList:
  A resizable array that provides fast access and update times. Suitable for scenarios where the inventory size changes frequently but not extremely large.
 HashMap:
