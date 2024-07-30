@@ -1,4 +1,5 @@
 
+o	Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
 
 Singly Linked List:
 A singly linked list is a type of data structure that consists of nodes. Each node contains two elements: data and a reference (or link) to the next node in the sequence. The list starts with a head node, which is the first node in the list, and the last node points to null, indicating the end of the list. Operations like insertion and deletion are efficient in singly linked lists because they do not require shifting elements as in arrays.
