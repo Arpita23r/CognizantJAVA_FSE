@@ -1,4 +1,5 @@
-Time Complexity
+o	Analyze the time complexity of each operation (add, search, traverse, delete).
+
 Add Operation: O(1) – Adding an employee at the end of the array.
 Search Operation: O(n) – In the worst case, we need to search through all employees.
 Traverse Operation: O(n) – We need to iterate through all employees to display them.
@@ -7,7 +8,8 @@ Limitations of Arrays
 Fixed Size: Arrays cannot be resized dynamically, which can lead to wasted memory or insufficient capacity.
 Inefficient Insertions and Deletions: Adding or removing elements from the middle of the array requires shifting elements, which can be inefficient for large arrays.
 
-Arrays are suitable when:
+o	Discuss the limitations of arrays and when to use them.
+
 The number of elements is known in advance and is fixed.
 Fast access to elements by index is required.
 Memory overhead should be minimized.
