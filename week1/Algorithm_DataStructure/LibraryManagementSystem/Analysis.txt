@@ -1,8 +1,9 @@
-Time Complexity:
+o	Compare the time complexity of linear and binary search.
 
 Linear Search: O(n)
 Binary Search: O(log n)
 
+o	Discuss when to use each algorithm based on the data set size and order.
 
 Linear Search: It is use when the dataset is small or unsorted. It is straightforward and does not require the list to be sorted.
 Binary Search: It is use when the dataset is large and sorted. It is much more efficient for larger datasets due to its logarithmic time complexity.
