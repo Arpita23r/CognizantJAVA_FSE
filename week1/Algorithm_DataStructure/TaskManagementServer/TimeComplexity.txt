@@ -1,5 +1,17 @@
+o	Analyze the time complexity of each operation.
+
 Time Complexity:
 Adding a task: O(n) - Inserting a task at the end of the list requires traversing the entire list to find the last node.
 Searching for a task: O(n) - Searching for a specific task involves traversing the list until the task is found or the end is reached.
 Traversing tasks: O(n) - Traversing the list to print or perform operations on each task requires visiting each node.
 Deleting a task: O(n) - Deleting a specific task requires finding the node (or its previous node), which involves traversing the list.
+
+o	Discuss the advantages of linked lists over arrays for dynamic data.
+
+Linked lists are advantageous over arrays for dynamic data due to their ability to grow and shrink easily without the need for resizing. Insertions and deletions are more efficient, typically O(1) if the position is known, as they don't require shifting elements. Linked lists use memory more efficiently since they allocate space for each element individually, avoiding the potential waste seen in arrays. They also don't need a predetermined size, offering flexibility when the number of elements frequently changes. Additionally, linked lists form the basis for more complex data structures like stacks and queues.
+
+
+
+
+
+
