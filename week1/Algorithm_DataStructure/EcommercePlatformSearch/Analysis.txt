@@ -1,0 +1,21 @@
+o	Compare the time complexity of linear and binary search algorithms
+Time Complexity:
+Linear Search:
+
+Best Case: O(1) - The target element is the first element.
+Average Case: O(n) - The target element is somewhere in the middle.
+Worst Case: O(n) - The target element is the last element or not present.
+Binary Search:
+
+Best Case: O(1) - The target element is the middle element.
+Average Case: O(log n) - The search interval is repeatedly halved.
+Worst Case: O(log n) - The target element is not present, requiring maximum divisions.
+
+o	Discuss which algorithm is more suitable for your platform and why.
+
+For an e-commerce platform, the choice between linear and binary search depends on several factors:
+
+Dataset Size: If the dataset is small, the difference in performance between linear and binary search may be negligible. For larger datasets, binary search is significantly faster.
+Frequency of Updates: If products are frequently added or removed, maintaining a sorted array for binary search may be costly. In such cases, linear search might be preferable despite its lower efficiency.
+Search Frequency: If search operations are frequent and the dataset is large, binary search is more suitable due to its O(log n) time complexity.
+In most cases, binary search would be more suitable for an e-commerce platform, especially if the dataset is large and search operations are frequent. However, if the dataset is dynamic with frequent updates, a different data structure like a balanced binary search tree or a hash table might be considered for optimized search performance.
